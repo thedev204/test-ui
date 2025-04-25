@@ -7,6 +7,10 @@ const styles = StyleSheet.create({
     paddingHorizontal: 24,
     paddingVertical: 30,
   },
+  db_page:{
+    flex: 1,
+    paddingBottom: 200
+  },
   heading2: {
     color: colors.primary,
     opacity: 0.7,
@@ -78,7 +82,7 @@ const styles = StyleSheet.create({
     backgroundColor: colors.primary,
     marginLeft: 6,
   },
-  db_data_card_infos:{
+  db_data_card_infos: {
     marginTop: 10,
     flexDirection: 'row',
     alignItems: 'flex-start',
@@ -103,16 +107,49 @@ const styles = StyleSheet.create({
     width: 1,
     paddingHorizontal: 7,
   },
-  yellowDividerVertical:{
+  yellowDividerVertical: {
     width: 1,
     height: 80,
     backgroundColor: '#444',
   },
-  yellowDividerHorizontal:{
+  yellowDividerHorizontal: {
     width: 'auto',
     height: 1,
     backgroundColor: '#444',
-    marginVertical: 10
+    marginVertical: 10,
+  },
+  db_chart: {
+    width: 'auto',
+    overflow: 'hidden',
+    marginTop: 10,
+  },
+  db_chart_label_container:{
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginTop: 16
+  },
+  db_chart_label: {
+    color: colors.text_inactive,
+    marginRight: 6
+  },
+  db_chart_lables_container: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+  },
+  db_chart_lable_item: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginHorizontal: 6,
+  },
+  db_chart_lable_item_dot: {
+    width: 12,
+    height: 12,
+    borderRadius: 6,
+    marginRight: 6,
+  },
+  db_chart_lable_item_text: {
+    color: colors.text_inactive,
+    fontSize: 14,
   },
 });
 
